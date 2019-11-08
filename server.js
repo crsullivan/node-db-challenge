@@ -9,7 +9,7 @@ server.use(express.json());
 server.use('/projects', ProjectsRouter);
 
 server.get('/', (req, res) => {
-  res.send('<h3>Lambda Project</h3>');
+  res.send('<h3>Sprint Project</h3>');
 });
 
 module.exports = server;
