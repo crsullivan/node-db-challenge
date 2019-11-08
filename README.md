@@ -40,11 +40,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 
 - [ ] Explain the difference between `Relational Databases` and `SQL`.
 
+RDB's are simply ways of storing data, they're like spreadsheets. Whereas SQL is a query language specifically designed to manipulate and navigate said spreadsheets.
+
 - [ ] Why do tables need a `primary key`?
+
+They need a sort of identifier, like a ssn or a geotracker, in order to be manipulated in the future.
 
 - [ ] What is the name given to a table column that references the primary key on another table.
 
+Foreign Key
+
 - [ ] What do we need in order to have a _many to many_ relationship between two tables.
+
+We need to add a third table to connect the other two via Foreign Keys.
 
 ## Minimum Viable Product
 
